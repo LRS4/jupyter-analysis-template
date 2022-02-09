@@ -4,8 +4,8 @@ This project provides a template for producing shareable interactive analysis us
 
 ## Prerequisites
 
-* Anaconda Python distribution (latest)
-* Installation of HoloViz hvplot using:
+* [Anaconda Python distribution (latest)](https://www.anaconda.com/products/individual)
+* Installation of [HoloViz](https://holoviz.org/) Python packages using:
 ```
 conda install -c conda-forge hvplot
 ```
@@ -16,14 +16,6 @@ conda install -c conda-forge hvplot
 
 2. Use the template to carry out your analysis
 
-3. To share with others, open export_notebook.ipynb and run the export_notebook_to_govified_html function
+3. To share with others, open export_notebook.ipynb and run export_notebook_to_html() then govify_html() functions. 
 
-4. The HTML output will be generated in the output folder 
-
-## Libraries
-
-The Anaconda Python distribution was used in the template example. The main libraries used were:
-
-* Numpy, Pandas
-* Matplotlib, Seaborn
-* HoloViews, Bokeh
+4. The HTML output will be generated in the output folder
