@@ -5,9 +5,11 @@ This project provides a template for producing shareable interactive analysis us
 ## Prerequisites
 
 * [Anaconda Python distribution (latest)](https://www.anaconda.com/products/individual)
-* Installation of [HoloViz](https://holoviz.org/) Python packages using:
+* Installation of [HoloViz](https://holoviz.org/) Python packages in a [new environment](https://gis.stackexchange.com/questions/358889/geopandas-installation-errors) using:
 ```
-conda install -c conda-forge hvplot
+conda create -n pyviz -c conda-forge geopandas
+conda activate pyviz
+conda install -c conda-forge datashader geoviews hvplot bokeh
 ```
 
 ## Steps
