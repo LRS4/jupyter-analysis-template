@@ -10,6 +10,7 @@ This project provides a template for producing shareable interactive analysis us
 conda create -n pyviz -c conda-forge geopandas
 conda activate pyviz
 conda install -c conda-forge datashader geoviews hvplot bokeh
+conda install -c conda-forge beautifulsoup4
 ```
 
 ## Steps
